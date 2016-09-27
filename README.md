@@ -18,7 +18,7 @@ cordova plugin add https://github.com/Cordobo/cordova-plugin-ios-camera-permissi
 
 ## Usage
 
-See http://cordobo.com/
+See http://cordobo.com/2269-cordova-plugin-for-nscamerausagedescription-in-ios-10/
 
 For the changes to `plugin.xml` to take effect, you must refresh the `ios.json` file (inside the `/plugin` folder):
 ```
