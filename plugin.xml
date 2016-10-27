@@ -1,19 +1,19 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<plugin id="cordova-plugin-ios-camera-permissions" version="1.0.2" xmlns="http://apache.org/cordova/ns/plugins/1.0">
+<plugin id="cordova-plugin-ios-camera-permissions" version="1.0.3" xmlns="http://apache.org/cordova/ns/plugins/1.0">
     <name>iOS Permissions</name>
     <author>Andreas Jacob (http://cordobo.com/)</author>
-    <description>Cordova / PhoneGap Plugin Permission Settings for NSCameraUsageDescription in iOS 10 by adding a declaration to the Info.plist file</description>
-    <keywords>cordova, ios, app, security, permissions, nscamerausagedescription</keywords>
+    <description>Cordova / PhoneGap Plugin Permission Settings for NSCameraUsageDescription and NSPhotoLibraryUsageDescription in iOS 10 by adding a declaration to the Info.plist file</description>
+    <keywords>cordova, ios, app, security, permissions, nscamerausagedescription, nsphotolibraryusagedescription</keywords>
     <license>MIT</license>
     <engines>
         <engine name="cordova" version=">=3.0.0"/>
     </engines>
     <platform name="ios">
       <config-file target="*-Info.plist" parent="NSCameraUsageDescription">
-          <string>This app need to use camera</string>
+          <string>This app needs camera access</string>
       </config-file>
       <config-file target="*-Info.plist" parent="NSPhotoLibraryUsageDescription">
-          <string>This app need to access to photo library</string>
+          <string>This app needs photo library access</string>
       </config-file>
     </platform>
 </plugin>
