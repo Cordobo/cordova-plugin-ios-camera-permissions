@@ -20,9 +20,9 @@ cordova plugin add https://github.com/Cordobo/cordova-plugin-ios-camera-permissi
 
 On installation you can customise the prompts shown by setting the following variables on installation.
 
-CAMERA_USAGE_DESCRIPTION for NSCameraUsageDescription
-MICROPHONE_USAGE_DESCRIPTION for NSMicrophoneUsageDescription
-PHOTOLIBRARY_USAGE_DESCRIPTION for NSPhotoLibraryUsageDescriptionentry
+- CAMERA_USAGE_DESCRIPTION for NSCameraUsageDescription
+- MICROPHONE_USAGE_DESCRIPTION for NSMicrophoneUsageDescription
+- PHOTOLIBRARY_USAGE_DESCRIPTION for NSPhotoLibraryUsageDescriptionentry
 
 For example:
 ```
