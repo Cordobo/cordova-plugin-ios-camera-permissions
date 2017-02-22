@@ -1,6 +1,6 @@
 {
   "name": "cordova-plugin-ios-camera-permissions",
-  "version": "1.0.5",
+  "version": "1.1.1",
   "author": "Andreas Jacob <andreas@cordobo.de> (http://cordobo.com/)",
   "description": "Cordova / PhoneGap Plugin Permission Settings for NSCameraUsageDescription, NSPhotoLibraryUsageDescription and NSMicrophoneUsageDescription in iOS 10 by adding a declaration to the Info.plist file",
   "cordova": {
