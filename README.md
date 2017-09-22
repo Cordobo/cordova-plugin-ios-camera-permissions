@@ -1,6 +1,6 @@
-## iOS 10 Camera Permissions Plugin for Apache Cordova
+## iOS 11 Camera Permissions Plugin for Apache Cordova
 
-**Cordova / PhoneGap Plugin Permission Settings for NSCameraUsageDescription, NSPhotoLibraryUsageDescription and NSMicrophoneUsageDescription in iOS 10 by adding a declaration to the Info.plist file**
+**Cordova / PhoneGap Plugin Permission Settings for NSCameraUsageDescription, NSPhotoLibraryUsageDescription, NSPhotoLibraryAddUsageDescription and NSMicrophoneUsageDescription in iOS 11 by adding a declaration to the Info.plist file**
 
 ## Install
 
@@ -22,11 +22,12 @@ On installation you can customise the prompts shown by setting the following var
 
 - CAMERA_USAGE_DESCRIPTION for NSCameraUsageDescription
 - MICROPHONE_USAGE_DESCRIPTION for NSMicrophoneUsageDescription
-- PHOTOLIBRARY_USAGE_DESCRIPTION for NSPhotoLibraryUsageDescriptionentry
+- PHOTOLIBRARY_ADD_USAGE_DESCRIPTION for NSPhotoLibraryAddUsageDescription (write-access only, iOS 11 only)
+- PHOTOLIBRARY_USAGE_DESCRIPTION for NSPhotoLibraryUsageDescription (read/write access)
 
 For example:
 ```
-cordova plugin add cordova-plugin-ios-camera-permissions --variable CAMERA_USAGE_DESCRIPTION="your usage message" --variable MICROPHONE_USAGE_DESCRIPTION="your microphone usage message here" --variable PHOTOLIBRARY_USAGE_DESCRIPTION="your photo library usage message here" --save
+cordova plugin add cordova-plugin-ios-camera-permissions --variable CAMERA_USAGE_DESCRIPTION="your usage message" --variable MICROPHONE_USAGE_DESCRIPTION="your microphone usage message here" --variable PHOTOLIBRARY_ADD_USAGE_DESCRIPTION="your photo library usage message here" --variable PHOTOLIBRARY_USAGE_DESCRIPTION="your photo library usage message here" --save
 ```
 
 ## Usage
@@ -41,7 +42,7 @@ $ cordova platform add ios
 
 ## Platforms
 
-Applies to iOS (10+) only.
+Applies to iOS 10/11 only.
 
 ## License
 
